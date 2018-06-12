@@ -2,9 +2,9 @@ This branch was to setup Firebase Crashlytics environment into an existing app.
 
 Below the process and the changes I have made the project can be found. <br>
 
-#Step by Step
+# Step by Step
 
-##Set up Crashlytics in the [here](https://console.firebase.google.com/project/_/crashlytics)
+## Set up Crashlytics in the [here](https://console.firebase.google.com/project/_/crashlytics)
 
 While that you should download GoogleService-info.plist from the firebase console and copy it to the project main directory.
 
