@@ -1,0 +1,121 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - Crashlytics (3.8.5):
+    - Fabric (~> 1.6.3)
+  - DatePickerDialog (1.2)
+  - Fabric (1.6.12)
+  - FacebookCore (0.2.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.15)
+  - FacebookLogin (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKLoginKit (~> 4.15)
+  - FBSDKCoreKit (4.25.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.25.0):
+    - FBSDKCoreKit
+  - Firebase/Core (4.1.0):
+    - FirebaseAnalytics (= 4.0.3)
+    - FirebaseCore (= 4.0.5)
+  - Firebase/Crash (4.1.0):
+    - Firebase/Core
+    - FirebaseCrash (= 2.0.1)
+  - Firebase/Messaging (4.1.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 2.0.1)
+  - FirebaseAnalytics (4.0.3):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseCore (4.0.5):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseCrash (2.0.1):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FirebaseInstanceID (2.0.1):
+    - FirebaseCore (~> 4.0)
+  - FirebaseMessaging (2.0.1):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/Logger (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - ImageSlideshow (1.3.2):
+    - ImageSlideshow/Core (= 1.3.2)
+  - ImageSlideshow/Core (1.3.2)
+  - MVHorizontalPicker (0.0.2)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - Nuke (5.1.1)
+  - Protobuf (3.4.0)
+  - Stripe (11.2.0)
+  - SwiftHTTP (2.0.2)
+  - TTRangeSlider (1.0.5)
+  - XLPagerTabStrip (7.0.0)
+
+DEPENDENCIES:
+  - Crashlytics
+  - DatePickerDialog
+  - Fabric
+  - FacebookCore
+  - FacebookLogin
+  - Firebase/Core
+  - Firebase/Crash
+  - Firebase/Messaging
+  - ImageSlideshow (~> 1.3)
+  - MVHorizontalPicker
+  - Nuke
+  - Stripe
+  - SwiftHTTP (~> 2.0.0)
+  - TTRangeSlider
+  - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Crashlytics: dfbae35ef22ca189240d230ad501feea4ee85d2d
+  DatePickerDialog: 03a5f219dbce1a3679c67f8c4478ee04214711f1
+  Fabric: f050464eac45a2ce5a8e6e6a07e977c0df32fe28
+  FacebookCore: 2cb3f0fbff218e9d3119cec84bae983b232412de
+  FacebookLogin: c9d606504735780a9e3002465a615512e0a691a5
+  FBSDKCoreKit: 53e3f4bfb64e80c5f229dd30ae33ff57fbbbd2d1
+  FBSDKLoginKit: f628c09684dae9c17f071cf90b014e886f5093ea
+  Firebase: ebebf41db7f10e0c7668b6eaaa857fbe599aa478
+  FirebaseAnalytics: 76f754d37ca5b04f36856729b6af3ca0152d1069
+  FirebaseCore: 7d876ea97a830cbe62ba7fbbe7670c833a324ba0
+  FirebaseCrash: bce9fbfb7dd6cc850a41fe39740a2292e6b61f2e
+  FirebaseInstanceID: 0500e3cb54a1a4e01a8cffcc09323b8bb8fc7e1e
+  FirebaseMessaging: b45ff9ef5d932600d3f78ff43168e7c5707aa7dc
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  ImageSlideshow: a68a76fc618ebd2b7481ce355ad67d7097203976
+  MVHorizontalPicker: d0d821ef2fa0c2dd9b11c907e650f5551c2f501c
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  Nuke: 0a2ddb4bd13d75782964bf598a159ca2a836d826
+  Protobuf: 03eef2ee0b674770735cf79d9c4d3659cf6908e8
+  Stripe: 898f83a95d72180c6eb4acd65b2ae6158fc6a8bd
+  SwiftHTTP: faa1a5f7670568ffc9361898229dbe84a6088468
+  TTRangeSlider: 2f2ce4a33b32bb323c6575b9f5161c4664459c58
+  XLPagerTabStrip: 9be80a66c6b7d60306b2c0a6004965016d68f813
+
+PODFILE CHECKSUM: 436691faa582887d8a7d4b2d6a2b6a18c5b79929
+
+COCOAPODS: 1.3.1
